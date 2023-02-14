@@ -17,30 +17,33 @@ const Projects = () => {
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
       <ProjectsCard
-        title="SOCIAL MEDIA CLONE"
-        des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        title="INDEPENT SERVICE PROVIDER"
+        des=" Dental Clinic Related Website"
         src={projectOne}
+        href1={'https://github.com/liton0023/doctor-clenic'}
+        href2={'https://rs-dental.web.app/home'}
       />
       <ProjectsCard
         title="E-commerce Website"
-        des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        des="Online Produce Selling Website "
         src={projectTwo}
+        href1={'https://github.com/liton0023/ema-jhon'}
+        href2={'https://ema-john-simple-8d29d.firebaseapp.com/'}
       />
       <ProjectsCard
-        title="Chatting App"
+        title="Proggrming Hero Website"
+        des="Online Cousrce Selling Wibesite"
+        src={projectThree}
+      href1={'https://github.com/liton0023/programming-hero-web'}
+      href2={'https://taupe-kashata-1e1bcc.netlify.app/'}
+      />
+      {/* <ProjectsCard
+        title="SOCIAL MEDIA CLONE"
         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
         src={projectThree}
       />
       <ProjectsCard
-        title="SOCIAL MEDIA CLONE"
-        des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-        src={projectThree}
-      />
-      <ProjectsCard
         title="E-commerce Website"
         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
@@ -51,7 +54,7 @@ const Projects = () => {
         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
         src={projectTwo}
-      />
+      /> */}
     </div>
   </section>
   )
