@@ -32,7 +32,7 @@ const BannerLeft = () => {
          I am 100% sincere, serious, hard-working, dedicated, committed, and honest.
         </p>
         <span className="">
-            <a href="">
+            <a href="https://drive.google.com/file/d/1UNWc-Pe63CWVPQClrmtx2svXU4_GajoS/view?usp=sharing">
         <button className='flex items-center rounded px-3 bg-emerald-600 max-h-full cursor-pointer'><FaDownload/>Download Resume </button>
       </a>
             </span>
